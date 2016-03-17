@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:text="Google OAuth2 WebView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/auth"
+        android:text="Sign in with Google" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Access"
+        android:autoLink="all"
+        android:icon="@mipmap/ic_gmail"
+        android:textIsSelectable="true"
+        android:layout_gravity="center"
+        android:textSize="10sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/auth1"
+        android:text="Sign in with Facebook" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Access1"
+        android:autoLink="all"
+        android:icon="@mipmap/ic_facebook"
+        android:textIsSelectable="true"
+        android:layout_gravity="center"
+        android:textSize="10sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/auth2"
+        android:text="Sign in with Yahoo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Access2"
+        android:autoLink="all"
+        android:icon="@mipmap/ic_yahoo"
+        android:textIsSelectable="true"
+        android:layout_gravity="center"
+        android:textSize="10sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/auth3"
+        android:text="Sign in with Twitter" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Access3"
+        android:autoLink="all"
+        android:icon="@mipmap/ic_twitter"
+        android:textIsSelectable="true"
+        android:layout_gravity="center"
+        android:textSize="10sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/auth4"
+        android:text="Sign in with Linkedin" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Access4"
+        android:autoLink="all"
+        android:icon="@mipmap/ic_linkedin"
+        android:textIsSelectable="true"
+        android:layout_gravity="center"
+        android:textSize="10sp"/>
+
+</LinearLayout>
